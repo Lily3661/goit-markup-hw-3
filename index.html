@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
@@ -14,6 +15,7 @@
 <body>
 
     <header class="header">
+        <div class="container">
         <nav class="navigation">
             <a class="logo" href="./index.html">
                 <span class="logo-web">Web</span>
@@ -24,7 +26,7 @@
                     <a class="navigation-list-link" href="./index.html">Студия
                     </a>
                 </li class="navigation-list-item">
-                <li>
+                <li class="navigation-list-item">
                     <a class="navigation-list-link" href="./portfolio.html">Портфолио
                     </a>
                 </li>
@@ -35,40 +37,82 @@
             </ul>
         </nav>
         <address class="address">
-            <ul>
-                <li class="mail">
+            <ul class="address-list">
+                <li class="address-item">
                     <a class="address-list-link" href="mailto:info@devstudio.com">
                         info@devstudio.com
                     </a>
                 </li>
-                <li class="tel">
+                <li class="address-item">
                     <a class="address-list-link" href="tel:+380961111111">
                         +38 096 111 11 11
                     </a>
                 </li>
             </ul>
         </address>
+        </div>
     </header>
+   
 
+  
     <main>
 
         <!--hero-->
-
+    <div class="container">
         <section class="hero">
-            <h1 class="first-title">Эффективные решения для вашего бизнеса
-            </h1>
+            <div class="hero-elements">
+            <p class="first-title">Эффективные решения для вашего бизнеса
+            </p>
             <button class="modal-btn" type="button">
                 Заказать услугу
             </button>
+            </div>
         </section>
 
         <!--our features-->
 
-        <section class="about-us">
-            <h1>
-                Наши особенности
-            </h1>
-            <ul>
+        <section>
+            <ul class="about-us-list">
+                <li class="about-us-item">
+                    <h2 class="about-us-title">
+                        Внимание к деталям
+                    </h2>
+                    <p class="text">
+                        Идейные соображения, а также начало повседневной работы по формированию позиции.
+                    </p>
+                </li>
+                <li class="about-us-item">
+                    <h2 class="about-us-title">
+                        Внимание к деталям
+                    </h2>
+                    <p class="text">
+                        Идейные соображения, а также начало повседневной работы по формированию позиции.
+                    </p>
+                </li>
+                <li class="about-us-item">
+                    <h2 class="about-us-title">
+                        Внимание к деталям
+                    </h2>
+                    <p class="text">
+                        Идейные соображения, а также начало повседневной работы по формированию позиции.
+                    </p>
+                </li>
+                <li class="about-us-item">
+                <h2 class="about-us-title">
+                    Внимание к деталям
+                </h2>
+                <p class="text">
+                    Идейные соображения, а также начало повседневной работы по формированию позиции.
+                </p>
+            </li>
+                <li class="about-us-item">
+                    <h2 class="about-us-title">
+                        Внимание к деталям
+                    </h2>
+                    <p class="text">
+                        Идейные соображения, а также начало повседневной работы по формированию позиции.
+                    </p>
+                </li>
                 <li class="about-us-item">
                     <h2 class="about-us-title">
                         Внимание к деталям
@@ -167,9 +211,13 @@
                 </li>
             </ul>
         </section>
+    </div>
     </main>
+   
 
+    
     <footer>
+        <div class="container">
         <a class="logo" href="./index.html">
             <span class="logo-web">Web</span>
             <span class="logo-studio">Studio</span>
@@ -191,8 +239,9 @@
                 </li>
             </ul>
         </address>
+        </div>
     </footer>
-
+    
 </body>
 
 </html>
